@@ -1,0 +1,27 @@
+body,html{
+    background-color:rgb(0, 255, 255);
+    height:100%;
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+}
+.Topnav{
+    overflow: hidden;
+    background-color:rgb(46, 185, 139);
+}
+.Topnav a{
+    float:left;
+    color:rgb(8, 105, 105);
+    padding: 14px  16px;
+    text-decoration: none;
+    font-size:18px;
+}
+.Topnav a:hover{
+    background-color:greenyellow;
+    color:green;
+}
+.Topnav a.active{
+    background-color:lawngreen;
+    color:gray
+}
+    
